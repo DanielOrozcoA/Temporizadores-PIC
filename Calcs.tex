@@ -1,0 +1,113 @@
+
+\documentclass{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%TCIDATA{OutputFilter=LATEX.DLL}
+%TCIDATA{Version=5.50.0.2953}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=Manual}
+%TCIDATA{Created=Friday, September 02, 2022 19:24:01}
+%TCIDATA{LastRevised=Wednesday, November 09, 2022 01:25:06}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{<META NAME="DocumentShell" CONTENT="Standard LaTeX\Blank - Standard LaTeX Article">}
+%TCIDATA{CSTFile=40 LaTeX article.cst}
+%TCIDATA{ComputeDefs=
+%$T_{osc}$
+%}
+
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newenvironment{proof}[1][Proof]{\noindent\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+\input{tcilatex}
+\begin{document}
+
+
+\bigskip
+
+$2^{8}=\allowbreak 256$
+
+$2^{16}=\allowbreak 65\,536$
+
+$T_{osc}=\frac{1}{48000000}=\allowbreak 2.\,\allowbreak 083\,3\times 10^{-8}$
+
+$T=\frac{1}{1000}=\allowbreak 0.001\,$
+
+$P=2$
+
+\bigskip
+
+$T=4PT_{osc}\left( 256-x\right) $
+
+$\frac{T}{4PT_{osc}}=256-x$
+
+\bigskip
+
+$x=65536-\frac{T}{4PT_{osc}}$
+
+$x=65536-\frac{0.001}{4\left( 2\right) \left( 2.\,\allowbreak 083\,3\times
+10^{-8}\right) }=\allowbreak 59536$
+
+\bigskip
+
+$2^{16}=\allowbreak 65\,536$
+
+$T_{osc}=\frac{1}{8000000}=\allowbreak 1.\,\allowbreak 25\times 10^{-7}$
+
+$T_{osc}=\frac{1}{20000000}=\allowbreak 5.0\times 10^{-8}$
+
+$T=\frac{1}{10000}=\allowbreak 0.000\,1$
+
+$P=2$
+
+\bigskip
+
+$x=65536-\frac{0.0001}{4\left( 2\right) \left( \allowbreak 1.\,\allowbreak
+25\times 10^{-7}\right) }=\allowbreak 65436$
+
+\bigskip
+
+$x=65536-\frac{0.00005}{4\left( 2\right) \left( \allowbreak 1.\,\allowbreak
+25\times 10^{-7}\right) }=\allowbreak 65486-55=\allowbreak 65\,431$
+
+\bigskip
+
+$x=65536-\frac{0.00015}{4\left( 2\right) \left( \allowbreak 1.\,\allowbreak
+25\times 10^{-7}\right) }=\allowbreak 65386-55=\allowbreak 65\,331$
+
+\bigskip
+
+\bigskip 
+
+$x=65536-\frac{T}{4PT_{osc}}$
+
+\bigskip 
+
+$\frac{1}{8000000}=\allowbreak 1.\,\allowbreak 25\times 10^{-7}$
+
+$\frac{1}{4000000}=\allowbreak 2.\,\allowbreak 5\times 10^{-7}$
+
+$\frac{1}{4000}=\allowbreak 0.000\,25$
+
+$x=65536-\frac{\allowbreak 0.000\,25}{4\left( 1\right) \left( \allowbreak
+\allowbreak 2.\,\allowbreak 5\times 10^{-7}\right) }=\allowbreak 65286.$
+
+\end{document}
